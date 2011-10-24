@@ -1,0 +1,7 @@
+Name: ckeditor
+Plugin URL: 
+Author: gabriel pettier
+Author URL: tshirtman.fr
+License: BSD
+Version: 0.1
+Description: edit entries with ckeditor
