@@ -21,10 +21,9 @@ def inject_ckeditor(req, context):
     add_header_snippet('''
         <script type="text/javascript">
         $(document).ready(function() {
-        CKEDITOR.replace('f_text');
+        ckeditor = CKEDITOR.replace('f_text');
         })
         </script>''');
-
 
 def setup(app, plugin):
     """This function is called by Zine in the application initialization
